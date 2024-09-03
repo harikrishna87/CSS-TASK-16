@@ -1048,9 +1048,9 @@ footer {
 
 
     .image img {
-        width: 350px;
+        width: 400px;
         position: absolute;
-        top: 50px;
+        top: 100px;
         right: 0;
     }
 
