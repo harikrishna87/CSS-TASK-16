@@ -154,16 +154,18 @@ section {
     border: 2px solid black;
     border-radius: 15px;
     padding: 5px 10px;
+    transition: all 2s ease;
 }
 
 .learn-more a:hover {
     background-color: blue;
     color: white;
+    transform: scale(1.05);
 }
 
 .hari1 {
     padding: 40px 0px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .hari1 a {
