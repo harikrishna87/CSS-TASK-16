@@ -349,8 +349,13 @@ section {
     margin-top: 30px;
     padding: 20px;
     box-shadow: 1px 1px 10px 2px sandybrown;
-    /* width: 350px; */
+    transition: all 1s;
 }
+
+.project:hover {
+    transform: scale(1.05);
+}
+
 
 .project1 {
     display: flex;
@@ -414,7 +419,7 @@ section {
 
 .contact1 {
     background-color: transparent;
-    box-shadow: 1px 1px 10px 1px #f6dada;
+    box-shadow: 1px 1px 10px 2px sandybrown;
     margin: auto;
     width: 60%;
     padding: 40px 0px;
